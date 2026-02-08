@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babson Tech Society</title>
     <link rel="stylesheet" href="Style.css">
@@ -10,18 +11,13 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 </head>
 <body>
-<div id="loading">
-    <div class="progress">
-        <div class="color"></div>
-    </div>
-</div>
 <section class="header">
     <nav>
-        <a href="index.html"><img src="images/Logo.png"></a>
+        <a href="index.html"><img src="Images/Logo.png" alt="Babson Tech Society logo"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
-                <li><a href="">HOME</a></li>
+                <li><a href="index.html">HOME</a></li>
                 <li><a href="https://belong.babson.edu/bts/events/">EVENTS</a></li>
                 <li><a href="constitution.html">CONSTITUTION</a></li>
                 <li><a href="about.html">ABOUT</a></li>
@@ -44,10 +40,12 @@ apply the concepts formulated by our society on<br> topic concerning new technol
     <div class="container">
         <a href="https://www.instagram.com/babson_tech/" class="instagram-btn" target="_blank">Check out our Instagram</a>
         <div class="image-collage">
-            <!-- Add your images here -->
-            <img src="Images/btechlogo.JPG" alt="Image description">
-            <img src="path/to/image2.jpg" alt="Image description">
-            <!-- Add more images as needed -->
+            <img src="Images/Insta1.jpg" alt="Beginner Python and Java workshop flyer">
+            <img src="Images/Insta2.jpg" alt="Tech discussion game theory flyer">
+            <img src="Images/Insta3.jpg" alt="Python workshop flyer with desktop illustration">
+            <img src="Images/Insta4.jpg" alt="Web development basics workshop flyer">
+            <img src="Images/Insta5.jpg" alt="Arduino workshop flyer">
+            <img src="Images/Insta6.jpg" alt="Python workshop flyer with code snippet">
         </div>
     </div>
 </section>  
@@ -64,16 +62,6 @@ apply the concepts formulated by our society on<br> topic concerning new technol
         navLinks.style.right = "-200px";
     }
     
-</script>
-<script>
-    // Wait for the DOM to load
-    document.addEventListener('DOMContentLoaded', function () {
-        // Simulate loading process
-        setTimeout(function() {
-            // Hide the loading screen
-            document.getElementById('loading').style.display = 'none';
-        }, 4000); // Corresponds to the animation duration
-    });
 </script>   
 </body>
 </html>
