@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/Background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(assets/images/Background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,7 +28,7 @@ nav img{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative:
+    position: relative;
 }
 .nav-links ul li a{
     color: #fff;
@@ -112,48 +112,7 @@ nav .fa{
         padding: 30px;
     }
 }
-/* Loading Screen Styles */
-#loading {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgb(0,102,67);
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.progress {
-    position: relative;
-    height: 10px;
-    width: 300px;
-    border: 10px solid #f4a261;
-    border-radius: 15px;
-    margin: 0 auto;
-}
-
-.progress .color {
-    position: absolute;
-    background-color: #2a9d8f;
-    width: 0px;
-    height: 10px;
-    border-radius: 15px;
-    animation: progres 4s forwards linear;
-}
-
-@keyframes progres {
-    0% {
-        width: 0%;
-    }
-    25% {
-        width: 50%;
-    }
-    50% {
-        width: 75%;
-    }
-    75% {
-        width: 85%;/* Club Roles Styles */
+/* Club Roles Styles */
 .club-roles .container {
     max-width: 1200px;
     margin: auto;
@@ -193,12 +152,6 @@ nav .fa{
     }
     .club-roles .role img {
         margin-bottom: 20px;
-    }
-}
-
-    }
-    100% {
-        width: 100%;
     }
 }
 .instagram-feed {
